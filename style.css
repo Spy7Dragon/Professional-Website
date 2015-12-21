@@ -1,0 +1,131 @@
+h1
+{
+	font-size: 450%
+}
+pre
+{
+font-family:"Times New Roman";
+text-align:left;
+color: darkgreen;
+background: lightgoldenrodyellow;
+font-size: 12pt;
+whitespace: pre-wrap;
+text-shadow: 1px 1px 1px chocolate;
+}
+body
+{
+font-family:"Times New Roman";
+text-align:left;
+color: darkgreen;
+background: lightgoldenrodyellow;
+font-size: 24pt;
+background-image: url("background.jpg");
+text-shadow: 2px 2px 2px lightgoldenrodyellow;
+}
+input.Button
+{
+text-align: center;
+width: 160px;
+padding: 20px;
+font-weight: bold;
+background: darkgreen;
+background-image: url("leaves.jpg") ;
+background-size: 2%;
+color: lightgoldenrodyellow;
+white-space: normal;
+border-color: lightgoldenrodyellow;
+text-shadow: 1px 1px 1px chocolate;
+}
+input.Home
+{
+font-size: 14pt;
+text-align: center;
+width: 160px;
+height: 143px;
+padding: 40px;
+font-weight: bold;
+background: url("robothand.jpg");
+color: lightgoldenrodyellow;
+white-space: normal;
+border-color: lightgoldenrodyellow;
+background-size: cover;
+background-repeat: no-repeat;
+}
+table tr td.display
+{
+font-family:"Times New Roman";
+text-align:left;
+color: darkgreen;
+background: lightgoldenrodyellow;
+font-size: 12pt;
+border: 70px solid transparent;
+border-image: url("border.jpg") 70 stretch;
+text-shadow: 1px 1px 1px chocolate;
+width: 800px;
+vertical-align: text-top;
+}
+img
+{
+	max-width:600px;
+}
+label 
+{
+display: inline-block; 
+border: 1px solid; 
+text-align: center;
+border-color: darkgreen;
+background: darkgoldenrod;
+padding: 5px 5px;
+}
+label:hover
+{
+background: darkgreen; 
+color: lightgoldenrodyellow;
+cursor: pointer;
+}
+
+.main { max-width: 700px;}
+.content > div {
+display: none;
+
+}
+input:checked + label {background: darkgreen; color: lightgoldenrodyellow}
+
+#tab1:checked ~ .content #panel1,
+#tab2:checked ~ .content #panel2,
+#tab3:checked ~ .content #panel3,
+#tab4:checked ~ .content #panel4 {
+     display: block;
+ } 
+
+[type='radio'] /* this makes it so that the radio buttons don't show */
+{
+display: none;
+}
+td
+{
+	vertical-align: top;
+}
+
+title
+{
+	width: 200px;
+}
+
+.nav
+{
+	width: 30px;
+	height: 30px;
+}
+/*table tr td.quote
+{
+font-family:"Times New Roman";
+text-align:center;
+color: darkgreen;
+background-image: url("clouds.jpg");
+background-size: cover;
+border-color: lightgoldenrodyellow;
+padding: 20px;
+height: 70px;
+width: 750px;
+} */
