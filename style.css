@@ -1,40 +1,38 @@
 h1
 {
-	font-size: 450%
+	font-size: 450%;
 }
-pre
-{
-font-family:"Times New Roman";
-text-align:left;
-color: darkgreen;
-background: lightgoldenrodyellow;
-font-size: 12pt;
-whitespace: pre-wrap;
-text-shadow: 1px 1px 1px chocolate;
-}
+h2 {font-size: 350%;}
+h3 {font-size: 250%;}
 body
 {
 font-family:"Times New Roman";
 text-align:left;
-color: darkgreen;
-background: lightgoldenrodyellow;
+color: #283018;
+background: #729f98;
 font-size: 24pt;
-background-image: url("background.jpg");
-text-shadow: 2px 2px 2px lightgoldenrodyellow;
+font-weight: bold;
+}
+table
+{
+height:100%;
+width:100%;
+}
+form
+{
+margin: 0;
+padding: 0;
 }
 input.Button
-{
+{ 
+display: inline-block; 
 text-align: center;
 width: 160px;
 padding: 20px;
 font-weight: bold;
-background: darkgreen;
-background-image: url("leaves.jpg") ;
-background-size: 2%;
-color: lightgoldenrodyellow;
+background: #283018;
+color: #f0eceb;
 white-space: normal;
-border-color: lightgoldenrodyellow;
-text-shadow: 1px 1px 1px chocolate;
 }
 input.Home
 {
@@ -44,52 +42,37 @@ width: 160px;
 height: 143px;
 padding: 40px;
 font-weight: bold;
-background: url("robothand.jpg");
-color: lightgoldenrodyellow;
+color: #f0eceb;
 white-space: normal;
-border-color: lightgoldenrodyellow;
-background-size: cover;
-background-repeat: no-repeat;
+background-color: transparent;
 }
 table tr td.display
 {
+font-weight: bold;
 font-family:"Times New Roman";
 text-align:left;
-color: darkgreen;
-background: lightgoldenrodyellow;
+color: #283018;
+background: #f0eceb;
 font-size: 12pt;
-border: 70px solid transparent;
-border-image: url("border.jpg") 70 stretch;
-text-shadow: 1px 1px 1px chocolate;
-width: 800px;
 vertical-align: text-top;
-}
-img
-{
-	max-width:600px;
 }
 label 
 {
 display: inline-block; 
-border: 1px solid; 
 text-align: center;
-border-color: darkgreen;
-background: darkgoldenrod;
-padding: 5px 5px;
+background: #729f98;
 }
 label:hover
 {
-background: darkgreen; 
-color: lightgoldenrodyellow;
+background: #729f98; 
+color: #f0eceb;
 cursor: pointer;
 }
 
-.main { max-width: 700px;}
 .content > div {
 display: none;
-
 }
-input:checked + label {background: darkgreen; color: lightgoldenrodyellow}
+input:checked + label {background: #283018; color: #f0eceb}
 
 #tab1:checked ~ .content #panel1,
 #tab2:checked ~ .content #panel2,
@@ -106,26 +89,3 @@ td
 {
 	vertical-align: top;
 }
-
-title
-{
-	width: 200px;
-}
-
-.nav
-{
-	width: 30px;
-	height: 30px;
-}
-/*table tr td.quote
-{
-font-family:"Times New Roman";
-text-align:center;
-color: darkgreen;
-background-image: url("clouds.jpg");
-background-size: cover;
-border-color: lightgoldenrodyellow;
-padding: 20px;
-height: 70px;
-width: 750px;
-} */
