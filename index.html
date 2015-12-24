@@ -8,46 +8,33 @@ include("count.php");
 <meta name="description" content="Portfolio website homepage">
 <meta name="keywords" content="Robotics,Artificial Intelligence,Software,Development,Computer Science,Branden Huggins,intern">
 </head>
-<body style="background: url(clouds.jpg)no-repeat center center fixed;background-size: cover;">
+<body>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <table>
-	<tr >
-		<td>
-			<form>
-				<input class="Home" type="button" value="Home"
-				onclick="window.location.href='index.html'"/>
-			</form>
+	<tr style="height: 200px;">
+		<td class="link">
+			<iframe  class="intro" src="https://docs.google.com/document/d/1tPzULaa4dArUdLUbVLaMIUIU6tHJGyEbAEx70CNqwzU/pub?embedded=true"></iframe>
 		</td>
-		<td >
-			<iframe src="https://docs.google.com/document/d/1tPzULaa4dArUdLUbVLaMIUIU6tHJGyEbAEx70CNqwzU/pub?embedded=true"></iframe>
-		</td>
-		<td>
-				<form>
-													<input class="Button" type="button" value="Resume"
-													onclick="window.location.href='Resume.html'"/>
-									</form>
-									</td>
-									<td>
+									<td class="link">
 									<form>
 																						<input class="Button" type="button" value="Projects"
-																						onclick="window.location.href='Personal_Projects.html'"/>
+																						onclick="window.location.href='Projects.html'"/>
 															</form>
 															</td>
-									<td>
 
-
-									<form>
-																			<input class="Button" type="button" value="Skills"
-																			onclick="window.location.href='Skills.html'"/>
-									</form>
-									</td>
-									<td>
+									<td class="link">
 									<form>
 												<input class="Button" type="button" value="About Me"
-												onclick="window.location.href='Cover_Letter.html'"/>
+												onclick="window.location.href='About_Me.html'"/>
 									</form>
 									</td>
-									<td>
+									<td class="link">
+													<form>
+																						<input class="Button" type="button" value="Resume"
+																						onclick="window.location.href='Resume.html'"/>
+																		</form>
+									</td >
+									<td class="link">
 															<form>
 																			<input class="Button" type="button" value="Contact Form"
 																			onclick="window.location.href='Contact_Form.html'"/>
@@ -55,7 +42,8 @@ include("count.php");
 		</td>
 	</tr>
 	<tr>
-		<td class="display" colspan="7" style="background-color:transparent;text-align:center;">
+		<td></td>
+		<td class="display" colspan="3" style="background: url(clouds.jpg)no-repeat center center fixed;background-size: cover; text-align:center; text-shadow: 0 0 3px #f0eceb">
 		<h1>
 		Branden Huggins
 		</h1>
@@ -65,6 +53,8 @@ include("count.php");
 		</br>
 		</br>
 		<h3>Aspiring Artificial Intelligence Developer</h3>
+		</td>
+		<td>
 		</td>
 	</tr>
 </table>

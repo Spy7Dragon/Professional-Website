@@ -1,59 +1,106 @@
 h1
 {
-	font-size: 450%;
+font-size: 400%
 }
-h2 {font-size: 350%;}
-h3 {font-size: 250%;}
+h2
+{
+font-size: 300%
+}
+h3
+{
+font-size: 200%
+}
 body
 {
 font-family:"Times New Roman";
 text-align:left;
 color: #283018;
 background: #729f98;
-font-size: 24pt;
+font-size: 14pt;
 font-weight: bold;
+height: 100%;
 }
 table
 {
+table-layout: fixed;
 height:100%;
 width:100%;
+}
+table tr td.link 
+{
+width: 20%;
+vertical-align: bottom;
+text-align: center;
 }
 form
 {
 margin: 0;
 padding: 0;
 }
+table.contact
+{
+	font-size: 14pt;
+	font-weight: bold;
+}
+iframe.intro
+{
+max-height:100%;
+height: 100%;
+width: 100%;
+border: none;
+}
+input
+{
+	color: #283018;
+	background-color: transparent;
+	font-size: 12pt;
+	font-weight: bold;
+	border-color: #283018;
+	border-width: 2px;
+}
+button
+{
+color: #283018;
+background-color: transparent;
+font-size: 12pt;
+font-weight: bold;
+border-color: #283018;
+border-width: 2px;
+}
+
 input.Button
 { 
 display: inline-block; 
 text-align: center;
-width: 160px;
-padding: 20px;
-font-weight: bold;
-background: #283018;
+padding: 40px;
+background-color: transparent;
 color: #f0eceb;
 white-space: normal;
+border: none;
+vertical-align: bottom;
+font-size: 16pt;
 }
 input.Home
 {
-font-size: 14pt;
+display: inline-block; 
 text-align: center;
-width: 160px;
-height: 143px;
 padding: 40px;
-font-weight: bold;
+background-color: transparent;
 color: #f0eceb;
 white-space: normal;
-background-color: transparent;
+border: none;
+vertical-align: bottom;
+font-size: 16pt;
 }
 table tr td.display
 {
+border-radius: 50px;
 font-weight: bold;
 font-family:"Times New Roman";
 text-align:left;
 color: #283018;
 background: #f0eceb;
-font-size: 12pt;
+font-size: 14pt;
 vertical-align: text-top;
 }
 label 
@@ -84,8 +131,4 @@ input:checked + label {background: #283018; color: #f0eceb}
 [type='radio'] /* this makes it so that the radio buttons don't show */
 {
 display: none;
-}
-td
-{
-	vertical-align: top;
 }
