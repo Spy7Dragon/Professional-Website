@@ -122,7 +122,7 @@
 </head>
 <body>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<table>
+<table class="container">
 	<tr style="height: 200px;">
 		<td class="link">
 			<form>
@@ -151,8 +151,8 @@
 											</td>
 											<td class="link">
 																	<form>
-																					<input class="Button" type="button" value="Contact Form"
-																					onclick="window.location.href='Contact_Form.html'"/>
+																					<input class="Button" type="button" value="Contact Me"
+																					onclick="window.location.href='Contact_Me.html'"/>
 																</form>
 		</td>
 	</tr>
@@ -175,13 +175,13 @@
 				First Name:
 			</td>
 			<td>
-				<input name="firstname" type="text" size="20" />
+				<input class="blank" name="firstname" type="text" size="10" />
 			</td>
 			<td align="right">
 				Last Name:
 			</td>
 			<td>
-				<input name="lastname" type="text" size="20" />
+				<input class="blank" name="lastname" type="text" size="10" />
 			</td>
 		</tr>
 		<tr>
@@ -189,14 +189,14 @@
 				Company:
 			</td>
 			<td colspan="3">
-				<input name="company" type="text" size="40" />
+				<input  class="blank" name="company" type="text" size="35" />
 			</td>
 		<tr>
 			<td align="right">
 				Email Address:
 			</td>
 			<td colspan="3">
-				<input name="emailAddr" type="text" size="40" />
+				<input  class="blank" name="emailAddr" type="text" size="35" />
 			</td>
 		</tr>
 		<tr>
@@ -204,7 +204,7 @@
 						Street Address:
 					</td>
 					<td colspan="3">
-						<input name="streetAddr" type="text" size="40" />
+						<input class="blank" name="streetAddr" type="text" size="35" />
 					</td>
 		</tr>
 		<tr>
@@ -212,7 +212,7 @@
 						City:
 					</td>
 					<td>
-						<input name="city" type="text" size="20" />
+						<input class="blank" name="city" type="text" size="10" />
 					</td>
 					<td align="right">
 						State:
@@ -277,13 +277,13 @@
 						Zip:
 					</td>
 					<td>
-						<input name="zip" type="text" size="20" />
+						<input class="blank" name="zip" type="text" size="10" />
 					</td>
 					<td align="right">
-						County:
+						Country:
 					</td>
 					<td>
-						<input name="country" type="text" size="20" />
+						<input class="blank" name="country" type="text" size="10" />
 					</td>
 		</tr>
 		<tr>
@@ -291,7 +291,7 @@
 								Phone#:
 							</td>
 							<td>
-								<input name="phone" type="text" size="20" />
+								<input class="blank" name="phone" type="text" size="10" />
 							</td>
 		</tr>
 		<tr>
@@ -299,7 +299,7 @@
 										Inquiry:
 									</td>
 									<td colspan="3">
-										<textarea id="inquiry" name="inquiry" cols="55" rows="6"></textarea>
+										<textarea id="inquiry" name="inquiry" cols="50" rows="6"></textarea>
 									</td>
 		</tr>
 		<tr>
@@ -315,18 +315,19 @@
 		<input type="submit" value="Inquiry Records (PASSWORD PROTECTED)" class="btn" />
 	</form>
 	</br>
-	</br>
-		<p align="center">
+		<div style="text-align: center;">
 					<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 						<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/brandenhuggins" data-format="inline" data-related="false" data-width="200"></script>
+		</br>
 		<form>
 																	<input type="button" value="Email: bhugg002@odu.edu"
 																	onclick="window.location.href='mailto:bhugg002@odu.edu'"/>
 													</form>
+													</br>
 													<form>
 																	<input type="button" value="Phone Number:(804) 484-4075"/>
 			</form>
-		</p>
+		</div>
 		</br>
 				</br>
 		</br>

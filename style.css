@@ -20,6 +20,10 @@ font-size: 14pt;
 font-weight: bold;
 height: 100%;
 }
+table.container
+{
+min-width: 1000px;
+}
 table
 {
 table-layout: fixed;
@@ -49,27 +53,24 @@ height: 100%;
 width: 100%;
 border: none;
 }
-input
+input, button
 {
 	color: #283018;
-	background-color: transparent;
+	background-color: #729f98;
 	font-size: 12pt;
 	font-weight: bold;
 	border-color: #283018;
 	border-width: 2px;
-}
-button
-{
-color: #283018;
-background-color: transparent;
-font-size: 12pt;
-font-weight: bold;
-border-color: #283018;
-border-width: 2px;
+	border-radius: 5px;
 }
 
+textarea, select, input.blank
+{
+	background-color: transparent;
+}
 input.Button
 { 
+width: 100%;
 display: inline-block; 
 text-align: center;
 padding: 40px;
@@ -126,6 +127,17 @@ input:checked + label {background: #283018; color: #f0eceb}
 #tab3:checked ~ .content #panel3,
 #tab4:checked ~ .content #panel4 {
      display: block;
+ } 
+ 
+ .personal > div {
+ display: none;
+ }
+ input:checked + label {background: #283018; color: #f0eceb}
+ 
+ #t1:checked ~ .personal #panel1,
+ #t2:checked ~ .personal #panel2
+{
+      display: block;
  } 
 
 [type='radio'] /* this makes it so that the radio buttons don't show */
