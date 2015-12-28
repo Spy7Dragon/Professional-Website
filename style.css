@@ -135,7 +135,8 @@ input:checked + label {background: #283018; color: #f0eceb}
  input:checked + label {background: #283018; color: #f0eceb}
  
  #t1:checked ~ .personal #panel1,
- #t2:checked ~ .personal #panel2
+ #t2:checked ~ .personal #panel2,
+ #t3:checked ~ .personal #panel3
 {
       display: block;
  } 
