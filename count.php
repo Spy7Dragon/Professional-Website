@@ -8,17 +8,14 @@ $viewer = $_SERVER['REMOTE_ADDR'];
 $count = $count + 1;
 
 
-if ($me == $viewer)
-{
-
-}
-else
+if ($me != $viewer)
 {
 	$newDate = date("m-d-Y", time());
 
 	if ($date != $newDate)
 	{
-		$emailMsg = "The view count is " . $count;
+		$emailMsg = "The view count is " . $count . "on " . $newDate . "\r\n" .
+		"The previous view was on " . $date . ".";
 		if (@mail("bhugg002@odu.edu", "Daily View Count", $emailMsg))
 		{
 
