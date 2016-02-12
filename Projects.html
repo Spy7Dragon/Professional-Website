@@ -4,8 +4,50 @@
 <meta name="author" content="Branden Huggins">
 <meta name="description" content="projects">
 <meta name="keywords" content="Software,C#,C++,GUI,HTML,CSS,Javascript,PHP,Java,Computer Science,Shutdown,Timer,Github">
+<script type="text/javascript" language="Javascript">
+     <!-- Hide script from old browsers
+
+    androidImages = new Array(
+    "/AndroidStudioPictures/Content%20Tab%20Changed.jpg",
+    "/AndroidStudioPictures/FinderButton.jpg",
+    "/AndroidStudioPictures/MapInterface.jpg",
+   	"/AndroidStudioPictures/TopofScroll.jpg",
+   	"/AndroidStudioPictures/BottomOfScroll.jpg",
+   	"/AndroidStudioPictures/HorizontalSwipeStart.jpg",
+   	"/AndroidStudioPictures/InbetweenSwipe.jpg",
+   	"/AndroidStudioPictures/HorizontalScrollEnd.jpg",
+   	"/AndroidStudioPictures/LinkableText.jpg",
+   	"/AndroidStudioPictures/Checkuplink.jpg",
+   	"/AndroidStudioPictures/GoogleMapsLaunched.jpg",
+   	"/AndroidStudioPictures/TestAdvertisement.jpg",
+   	"/AndroidStudioPictures/StartAnimation.jpg",
+   	"/AndroidStudioPictures/EndAnimation.jpg",
+   	"/AndroidStudioPictures/ColorTheme2.jpg")
+    imgCt = androidImages.length
+    firstTime = true
+
+ function rotate() {
+    if (document.images) {
+        if (firstTime) {
+            index = 0
+            firstTime = false
+        }
+        else {
+            index++
+            if (index == imgCt) {
+                index = 0
+            }
+        }
+        document.AndroidPicture.src=androidImages[index]
+        //update caption label
+        setTimeout("rotate()", 4 * 1000)
+    }
+ }
+
+ // End hiding script from old browsers -->
+ </script>
 </head>
-<body>
+<body onload="rotate()" >
 <link rel="stylesheet" type="text/css" href="style.css" />
 <table class="container">
 	<tr style="height: 200px;">
@@ -62,6 +104,9 @@
 
 															  <input id="t3" type="radio" name="ts" checked>
 															  <label for="t3">Tic Tac Toe Simulator</label>
+
+															  <input id="t4" type="radio" name="ts">
+															  <label for="t4">Android Studio Pictures</label>
 													<div class="personal">
 													  <div id="panel1">
 													    <a href="https://github.com/Spy7Dragon/ShutdownTimer">Shutdown Timer</a>
@@ -124,6 +169,15 @@
 													  	<img src="TicTacToe.jpg" alt="Tic Tac Toe">
 													  	</br>
 													  	Main Window
+														</div>
+														<div id="panel4">
+														Android Studio Slideshow
+														</br>
+														</br>
+														Description: Practicing different features in Android Studio
+														</br>
+														<img src="/AndroidStudio/Development Environment.jpg" width="400" height="500" name="AndroidPicture"
+														alt="Android Studio Pictures" />
 														</div>
 													</div>
 							</div>
