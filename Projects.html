@@ -7,22 +7,35 @@
 <script type="text/javascript" language="Javascript">
      <!-- Hide script from old browsers
 
-    androidImages = new Array(
-    "/AndroidStudioPictures/Content%20Tab%20Changed.jpg",
-    "/AndroidStudioPictures/FinderButton.jpg",
-    "/AndroidStudioPictures/MapInterface.jpg",
-   	"/AndroidStudioPictures/TopofScroll.jpg",
-   	"/AndroidStudioPictures/BottomOfScroll.jpg",
-   	"/AndroidStudioPictures/HorizontalSwipeStart.jpg",
-   	"/AndroidStudioPictures/InbetweenSwipe.jpg",
-   	"/AndroidStudioPictures/HorizontalScrollEnd.jpg",
-   	"/AndroidStudioPictures/LinkableText.jpg",
-   	"/AndroidStudioPictures/Checkuplink.jpg",
-   	"/AndroidStudioPictures/GoogleMapsLaunched.jpg",
-   	"/AndroidStudioPictures/TestAdvertisement.jpg",
-   	"/AndroidStudioPictures/StartAnimation.jpg",
-   	"/AndroidStudioPictures/EndAnimation.jpg",
-   	"/AndroidStudioPictures/ColorTheme2.jpg")
+	var createImage = function(src, label)
+	{
+		var img = new Image();
+		img.src = src;
+		img.alt = label;
+		return img;
+	};
+    var androidImages = [];
+
+    androidImages.push(createImage("/AndroidStudioPictures/FinderButton.jpg", "Finder Button"));
+    androidImages.push(createImage("/AndroidStudioPictures/MapInterface.jpg", "Map Interface"));
+    androidImages.push(createImage("/AndroidStudioPictures/TableLayoutisDifferent.jpg", "Table Layout is Different"));
+   	androidImages.push(createImage("/AndroidStudioPictures/TopofScroll.jpg", "Top of scroll"));
+   	androidImages.push(createImage("/AndroidStudioPictures/BottomOfScroll.jpg", "Bottom of scroll"));
+   	androidImages.push(createImage("/AndroidStudioPictures/HorizontalSwipeStart.jpg", "Horizontal swipe start"));
+   	androidImages.push(createImage("/AndroidStudioPictures/InbetweenSwipe.jpg", "In between swipe"));
+   	androidImages.push(createImage("/AndroidStudioPictures/HorizontalScrollEnd.jpg", "Horizontal scroll end"));
+   	androidImages.push(createImage("/AndroidStudioPictures/LinkableText.jpg", "Linkable text"));
+   	androidImages.push(createImage("/AndroidStudioPictures/Checkuplink.jpg", "Check-up link"));
+   	androidImages.push(createImage("/AndroidStudioPictures/GoogleMapsLaunched.jpg", "Google Maps Launched"));
+   	androidImages.push(createImage("/AndroidStudioPictures/TestAdvertisement.jpg", "Test Advertisement"));
+   	androidImages.push(createImage("/AndroidStudioPictures/StartAnimation.jpg", "Start animation"));
+   	androidImages.push(createImage("/AndroidStudioPictures/EndAnimation.jpg", "End animation"));
+   	androidImages.push(createImage("/AndroidStudioPictures/ColorTheme.jpg", "Color theme"));
+   	androidImages.push(createImage("/AndroidStudioPictures/ColorTheme2.jpg", "Color theme 2"));
+   	androidImages.push(createImage("/AndroidStudioPictures/RoundedButton.jpg", "Rounded Button"));
+   	androidImages.push(createImage("/AndroidStudioPictures/NotificationButton.jpg", "Notification Button"));
+   	androidImages.push(createImage("/AndroidStudioPictures/NotificationInTopLeft.jpg", "Notificiation in top left"));
+   	androidImages.push(createImage("/AndroidStudioPictures/NotificationDropDown.jpg", "Notification drop down"));
     imgCt = androidImages.length
     firstTime = true
 
@@ -38,7 +51,8 @@
                 index = 0
             }
         }
-        document.AndroidPicture.src=androidImages[index]
+        document.AndroidPicture.src=androidImages[index].src;
+        document.getElementById('pictureName').innerHTML = androidImages[index].alt;
         //update caption label
         setTimeout("rotate()", 4 * 1000)
     }
@@ -176,8 +190,12 @@
 														</br>
 														Description: Practicing different features in Android Studio
 														</br>
-														<img src="/AndroidStudio/Development Environment.jpg" width="400" height="500" name="AndroidPicture"
+														<img src="/AndroidStudio/Development Environment.jpg" width="307" height="512" name="AndroidPicture"
 														alt="Android Studio Pictures" />
+														</br>
+														<p id="pictureName">
+														First Picture
+														</p>
 														</div>
 													</div>
 							</div>
