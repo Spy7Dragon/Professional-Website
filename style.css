@@ -41,10 +41,24 @@ form
 margin: 0;
 padding: 0;
 }
+div.resume
+{
+text-align: center;
+height: 75%;
+width: 100%;
+}
 table.contact
 {
 	font-size: 14pt;
 	font-weight: bold;
+}
+
+iframe.resume
+{
+min-width: 590px;
+width: 80%;
+height: 100%;
+border: none;
 }
 iframe.intro
 {
@@ -52,6 +66,7 @@ max-height:100%;
 height: 100%;
 width: 100%;
 border: none;
+dipslay: inline-block
 }
 input, button
 {
