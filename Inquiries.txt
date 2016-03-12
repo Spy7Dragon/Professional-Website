@@ -1,0 +1,21 @@
+INQUIRIES:
+Name: Branden Huggins
+Company: sdafsdaf
+Email: bh7y@virginia.edu
+Street   3224 Hunters Mill Ct
+Address: Richmond, Virginia 23223
+Country: United States
+Phone#: 8044844075
+Inquiry: adsf asd fdsa faf sd dfsa
+12/08/15 : 16:05:21
+
+Name: fddf dfdf
+Company: df
+Email: ddffd@yahhoo.com
+Street   dfdf
+Address: dffd, Virginia 23464
+Country: dfdf
+Phone#: 7576835008
+Inquiry: fdfd
+12/14/15 : 11:10:30
+
