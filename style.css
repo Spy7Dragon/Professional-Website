@@ -22,7 +22,13 @@ height: 100%;
 }
 table.container
 {
+position: absolute;
 min-width: 1000px;
+z-index: 1;
+}
+canvas {
+position: absolute;
+z-index: 2;
 }
 table
 {
