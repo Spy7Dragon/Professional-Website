@@ -14,8 +14,8 @@ window.onload = function()
 	var anim = document.getElementById("snow");
 	var ctx = anim.getContext("2d");
 
-	var W = window.innerWidth;
-	var H = window.innerHeight - 200;
+	var W = screen.availWidth + 400;
+	var H = screen.availHeight;
 	anim.width = W;
 	anim.height = H;
 
@@ -24,7 +24,7 @@ window.onload = function()
 	for (var i = 0; i < mp; i++)
 	{
 		particles.push({
-			x: Math.random()*W,
+			x: Math.random()*W - 200,
 			y: Math.random()*H,
 			r: Math.random()*1+1,
 			d: Math.random()*mp
@@ -62,7 +62,7 @@ window.onload = function()
 				{
 					//if (i%3 > 0)
 					//{
-						particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
+						particles[i] = {x: Math.random()*W - 200, y: -10, r: p.r, d: p.d};
 					//}
 					//else
 					//{
@@ -88,8 +88,8 @@ window.onload = function()
 <table class="container">
 	<tr style="height: 200px;">
 		<td class="link">
-			<iframe  class="intro" src="https://docs.google.com/document/d/1tPzULaa4dArUdLUbVLaMIUIU6tHJGyEbAEx70CNqwzU/pub?embedded=true"></iframe>
 			<canvas id="snow" style="display:block;"> </canvas>
+			<iframe  class="intro" src="https://docs.google.com/document/d/1tPzULaa4dArUdLUbVLaMIUIU6tHJGyEbAEx70CNqwzU/pub?embedded=true"></iframe>
 		</td>
 									<td class="link">
 									<form>

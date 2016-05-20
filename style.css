@@ -83,6 +83,8 @@ input, button
 	border-color: #283018;
 	border-width: 2px;
 	border-radius: 5px;
+	position: relative;
+	z-index: 3;
 }
 
 textarea, select, input.blank
