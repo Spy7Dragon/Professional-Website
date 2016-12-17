@@ -1,171 +1,186 @@
-h1
-{
-font-size: 400%
+h1 {
+    font-size: 400%;
 }
-h2
-{
-font-size: 300%
+
+h2 {
+    font-size: 300%;
 }
-h3
-{
-font-size: 200%
+
+h3 {
+    font-size: 200%;
 }
-body
-{
-font-family:"Times New Roman";
-text-align:left;
-color: #283018;
-background: #729f98;
-font-size: 14pt;
-font-weight: bold;
-height: 100%;
+
+body {
+    font-family: "Times New Roman";
+    text-align: left;
+    color: #283018;
+    background: #729f98;
+    font-size: 14pt;
+    font-weight: bold;
+    height: 100%;
 }
-table.container
-{
-position: absolute;
-min-width: 1000px;
-z-index: 1;
+
+table.container {
+    position: absolute;
+    min-width: 1000px;
+    z-index: 1;
 }
+
 canvas {
-position: absolute;
-z-index: 2;
-}
-table
-{
-table-layout: fixed;
-height:100%;
-width:100%;
-}
-table tr td.link 
-{
-width: 20%;
-vertical-align: bottom;
-text-align: center;
-}
-form
-{
-margin: 0;
-padding: 0;
-}
-div.resume
-{
-text-align: center;
-height: 75%;
-width: 100%;
-}
-table.contact
-{
-	font-size: 14pt;
-	font-weight: bold;
+    position: absolute;
+    z-index: 2;
 }
 
-iframe.resume
-{
-min-width: 590px;
-width: 80%;
-height: 100%;
-border: none;
-}
-iframe.intro
-{
-max-height:100%;
-height: 100%;
-width: 100%;
-border: none;
-dipslay: inline-block
-}
-input, button
-{
-	color: #283018;
-	background-color: #729f98;
-	font-size: 12pt;
-	font-weight: bold;
-	border-color: #283018;
-	border-width: 2px;
-	border-radius: 5px;
-	position: relative;
-	z-index: 3;
+table {
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
 }
 
-textarea, select, input.blank
+    table tr td.link {
+        width: 20%;
+        vertical-align: bottom;
+        text-align: center;
+    }
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+div.resume {
+    text-align: center;
+    height: 75%;
+    width: 100%;
+}
+
+table.contact {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+iframe.resume {
+    min-width: 590px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+iframe.intro {
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    border: none;
+    display: inline-block;
+}
+
+input, button {
+    color: #283018;
+    background-color: #729f98;
+    font-size: 12pt;
+    font-weight: bold;
+    border-color: #283018;
+    border-width: 2px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+}
+
+    textarea, select, input.blank {
+        background-color: transparent;
+    }
+
+    input.Button {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 40px;
+        background-color: transparent;
+        color: #f0eceb;
+        white-space: normal;
+        border: none;
+        vertical-align: bottom;
+        font-size: 16pt;
+    }
+
+    input.Home {
+        display: inline-block;
+        text-align: center;
+        padding: 40px;
+        background-color: transparent;
+        color: #f0eceb;
+        white-space: normal;
+        border: none;
+        vertical-align: bottom;
+        font-size: 16pt;
+    }
+
+table tr td.display {
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    text-align: left;
+    color: #283018;
+    background: #f0eceb;
+    font-size: 14pt;
+    vertical-align: text-top;
+}
+
+table tr td.display a:link
 {
-	background-color: transparent;
+    color: #f0eceb;
 }
-input.Button
-{ 
-width: 100%;
-display: inline-block; 
-text-align: center;
-padding: 40px;
-background-color: transparent;
-color: #f0eceb;
-white-space: normal;
-border: none;
-vertical-align: bottom;
-font-size: 16pt;
-}
-input.Home
+
+table tr td.display a:visited
 {
-display: inline-block; 
-text-align: center;
-padding: 40px;
-background-color: transparent;
-color: #f0eceb;
-white-space: normal;
-border: none;
-vertical-align: bottom;
-font-size: 16pt;
+    color: #f0eceb;
 }
-table tr td.display
-{
-border-radius: 50px;
-font-weight: bold;
-font-family:"Times New Roman";
-text-align:left;
-color: #283018;
-background: #f0eceb;
-font-size: 14pt;
-vertical-align: text-top;
+
+label {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    background: #729f98;
 }
-label 
-{
-display: inline-block; 
-text-align: center;
-background: #729f98;
-}
-label:hover
-{
-background: #729f98; 
-color: #f0eceb;
-cursor: pointer;
-}
+
+    label:hover {
+        background: #729f98;
+        color: #f0eceb;
+        cursor: pointer;
+    }
 
 .content > div {
-display: none;
+    display: none;
 }
-input:checked + label {background: #283018; color: #f0eceb}
+
+input:checked + label {
+    background: #283018;
+    color: #f0eceb;
+}
 
 #tab1:checked ~ .content #panel1,
 #tab2:checked ~ .content #panel2,
 #tab3:checked ~ .content #panel3,
 #tab4:checked ~ .content #panel4 {
-     display: block;
- } 
- 
- .personal > div {
- display: none;
- }
- input:checked + label {background: #283018; color: #f0eceb}
- 
- #t1:checked ~ .personal #panel1,
- #t2:checked ~ .personal #panel2,
- #t3:checked ~ .personal #panel3,
- #t4:checked ~ .personal #panel4
-{
-      display: block;
- } 
+    display: block;
+}
 
-[type='radio'] /* this makes it so that the radio buttons don't show */
-{
-display: none;
+.personal > div {
+    display: none;
+}
+
+input:checked + label {
+    background: #283018;
+    color: #f0eceb;
+}
+
+#t1:checked ~ .personal #panel1,
+#t2:checked ~ .personal #panel2,
+#t3:checked ~ .personal #panel3,
+#t4:checked ~ .personal #panel4 {
+    display: block;
+}
+
+[type='radio'] /* this makes it so that the radio buttons don't show */ {
+    display: none;
 }

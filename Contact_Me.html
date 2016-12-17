@@ -1,8 +1,8 @@
 <html>
 <head>
-<title> Branden Huggins - Contact Form </title>
-<meta name="author" content="Branden Huggins">
-<script language = "Javascript" type="text/javascript">
+    <title> Branden Huggins - Contact Form </title>
+    <meta name="author" content="Branden Huggins">
+    <script language="Javascript" type="text/javascript">
 	<!-- Hide script from older browsers
 
 	function validEmail(email)
@@ -117,223 +117,224 @@
 	}
 
 	// End hiding script -->
-</script>
+    </script>
 
 </head>
 <body>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<table class="container">
-	<tr style="height: 200px;">
-		<td class="link">
-			<form>
-				<input class="Home" type="button" value="Home"
-				onclick="window.location.href='index.html'"/>
-			</form>
-		</td>
-		<td class="link">
-											<form>
-																								<input class="Button" type="button" value="Projects"
-																								onclick="window.location.href='Projects.html'"/>
-																	</form>
-																	</td>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <table class="container">
+        <tr style="height: 200px;">
+            <td class="link">
+                <form>
+                    <input class="Home" type="button" value="Home"
+                           onclick="window.location.href='index.html'" />
+                </form>
+            </td>
+            <td class="link">
+                <form>
+                    <input class="Button" type="button" value="Projects"
+                           onclick="window.location.href='Projects.html'" />
+                </form>
+            </td>
 
-											<td class="link">
-											<form>
-														<input class="Button" type="button" value="About Me"
-														onclick="window.location.href='About_Me.html'"/>
-											</form>
-											</td>
-											<td class="link">
-															<form>
-																								<input class="Button" type="button" value="Resume"
-																								onclick="window.location.href='Resume.html'"/>
-																				</form>
-											</td>
-											<td class="link">
-																	<form>
-																					<input class="Button" type="button" value="Contact Me"
-																					onclick="window.location.href='Contact_Me.html'"/>
-																</form>
-		</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td class="display" colspan = "3" >
-		</br>
-				</br>
-		</br>
-		<b> Contact Me </b>
-		</br>
-		</br>
-		Use this form to submit inquiries to Branden Huggins.
-		</br>
-		</br>
-<form method="POST"  action="inquiry.php" onsubmit="return submitIt(this)" name="myForm">
-	<table class="contact">
-		<tr>
-			<td align="right">
-				First Name:
-			</td>
-			<td>
-				<input class="blank" name="firstname" type="text" size="10" />
-			</td>
-			<td align="right">
-				Last Name:
-			</td>
-			<td>
-				<input class="blank" name="lastname" type="text" size="10" />
-			</td>
-		</tr>
-		<tr>
-			<td align="right">
-				Company:
-			</td>
-			<td colspan="3">
-				<input  class="blank" name="company" type="text" size="35" />
-			</td>
-		<tr>
-			<td align="right">
-				Email Address:
-			</td>
-			<td colspan="3">
-				<input  class="blank" name="emailAddr" type="text" size="35" />
-			</td>
-		</tr>
-		<tr>
-					<td align="right">
-						Street Address:
-					</td>
-					<td colspan="3">
-						<input class="blank" name="streetAddr" type="text" size="35" />
-					</td>
-		</tr>
-		<tr>
-					<td align="right">
-						City:
-					</td>
-					<td>
-						<input class="blank" name="city" type="text" size="10" />
-					</td>
-					<td align="right">
-						State:
-					</td>
-					<td>
-						<select name="state">
-							<option value="Alabama">Alabama</option>
-							<option value="Alaska">Alaska</option>
-							<option value="Arizona">Arizona</option>
-							<option value="Arkansas">Arkansas</option>
-							<option value="California">California</option>
-							<option value="Colorado">Colorado</option>
-							<option value="Connecticut">Connecticut</option>
-							<option value="Delaware">Delaware</option>
-							<option value="Florida">Florida</option>
-							<option value="Georgia">Georgia</option>
-							<option value="Hawaii">Hawaii</option>
-							<option value="Idaho">Idaho</option>
-							<option value="Illinois">Illinois</option>
-							<option value="Indiana">Indiana</option>
-							<option value="Iowa">Iowa</option>
-							<option value="Kansas">Kansas</option>
-							<option value="Kentucky">Kentucky</option>
-							<option value="Louisiana">Louisiana</option>
-							<option value="Maine">Maine</option>
-							<option value="Maryland">Maryland</option>
-							<option value="Massachusetts">Massachusetts</option>
-							<option value="Michigan">Michigan</option>
-							<option value="Minnesota">Minnesota</option>
-							<option value="Mississippi">Mississippi</option>
-							<option value="Missouri">Missouri</option>
-							<option value="Montana">Montana</option>
-							<option value="Nebraska">Nebraska</option>
-							<option value="Nevada">Nevada</option>
-							<option value="New Hampshire">New Hampshire</option>
-							<option value="New Jersey">New Jersey</option>
-							<option value="New Mexico">New Mexico</option>
-							<option value="New York">New York</option>
-							<option value="North Carolina">North Carolina</option>
-							<option value="North Dakota">North Dakota</option>
-							<option value="Ohio">Ohio</option>
-							<option value="Oklahoma">Oklahoma</option>
-							<option value="Oregon">Oregon</option>
-							<option value="Pennsylvania">Pennsylvania</option>
-							<option value="Rhode Island">Rhode Island</option>
-							<option value="South Carolina">South Carolina</option>
-							<option value="South Dakota">South Dakota</option>
-							<option value="Tennessee">Tennessee</option>
-							<option value="Texas">Texas</option>
-							<option value="Utah">Utah</option>
-							<option value="Vermont">Vermont</option>
-							<option value="Virginia" selected>Virginia</option>
-							<option value="Washington">Washington</option>
-							<option value="West Virginia">West Virginia</option>
-							<option value="Wisconsin">Wisconsin</option>
-							<option value="Wyoming">Wyoming</option>
-						<select>
-					</td>
-		</tr>
-		<tr>
-					<td align="right">
-						Zip:
-					</td>
-					<td>
-						<input class="blank" name="zip" type="text" size="10" />
-					</td>
-					<td align="right">
-						Country:
-					</td>
-					<td>
-						<input class="blank" name="country" type="text" size="10" />
-					</td>
-		</tr>
-		<tr>
-							<td align="right">
-								Phone#:
-							</td>
-							<td>
-								<input class="blank" name="phone" type="text" size="10" />
-							</td>
-		</tr>
-		<tr>
-									<td align="right" valign="top">
-										Inquiry:
-									</td>
-									<td colspan="3">
-										<textarea id="inquiry" name="inquiry" cols="50" rows="6"></textarea>
-									</td>
-		</tr>
-		<tr>
-				<td colspan="2">
-					<input type="submit" value="Submit" class="btn" />
-					<input type="reset" value="Reset" class="btn" />
-				</td>
-	</tr>
-	</table>
-	</form>
-	</br>
-	<form method="POST" action="inquiryList.php" >
-		<input type="submit" value="Inquiry Records (PASSWORD PROTECTED)" class="btn" />
-	</form>
-	</br>
-		<div style="text-align: center;">
-					<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-						<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/brandenhuggins" data-format="inline" data-related="false" data-width="200"></script>
-		</br>
-		<form>
-																	<input type="button" value="Email: bhugg002@odu.edu"
-																	onclick="window.location.href='mailto:bhugg002@odu.edu'"/>
-													</form>
-													</br>
-													<form>
-																	<input type="button" value="Phone Number:(804) 484-4075"/>
-			</form>
-		</div>
-		</br>
-				</br>
-		</br>
-		</td>
-		<td></td>
-	</tr>
-</table>
-			</body>
+            <td class="link">
+                <form>
+                    <input class="Button" type="button" value="Activities"
+                           onclick="window.location.href='Activities.html'" />
+                </form>
+            </td>
+            <td class="link">
+                <form>
+                    <input class="Button" type="button" value="Resume"
+                           onclick="window.location.href='Resume.html'" />
+                </form>
+            </td>
+            <td class="link">
+                <form>
+                    <input class="Button" type="button" value="Contact Me"
+                           onclick="window.location.href='Contact_Me.html'" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="display" colspan="3">
+                </br>
+                </br>
+                </br>
+                <b> Contact Me </b>
+                </br>
+                </br>
+                Use this form to submit inquiries to Branden Huggins.
+                </br>
+                </br>
+                <form method="POST" action="inquiry.php" onsubmit="return submitIt(this)" name="myForm">
+                    <table class="contact">
+                        <tr>
+                            <td align="right">
+                                First Name:
+                            </td>
+                            <td>
+                                <input class="blank" name="firstname" type="text" size="10" />
+                            </td>
+                            <td align="right">
+                                Last Name:
+                            </td>
+                            <td>
+                                <input class="blank" name="lastname" type="text" size="10" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Company:
+                            </td>
+                            <td colspan="3">
+                                <input class="blank" name="company" type="text" size="35" />
+                            </td>
+                        <tr>
+                            <td align="right">
+                                Email Address:
+                            </td>
+                            <td colspan="3">
+                                <input class="blank" name="emailAddr" type="text" size="35" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Street Address:
+                            </td>
+                            <td colspan="3">
+                                <input class="blank" name="streetAddr" type="text" size="35" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                City:
+                            </td>
+                            <td>
+                                <input class="blank" name="city" type="text" size="10" />
+                            </td>
+                            <td align="right">
+                                State:
+                            </td>
+                            <td>
+                                <select name="state">
+                                    <option value="Alabama">Alabama</option>
+                                    <option value="Alaska">Alaska</option>
+                                    <option value="Arizona">Arizona</option>
+                                    <option value="Arkansas">Arkansas</option>
+                                    <option value="California">California</option>
+                                    <option value="Colorado">Colorado</option>
+                                    <option value="Connecticut">Connecticut</option>
+                                    <option value="Delaware">Delaware</option>
+                                    <option value="Florida">Florida</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Hawaii">Hawaii</option>
+                                    <option value="Idaho">Idaho</option>
+                                    <option value="Illinois">Illinois</option>
+                                    <option value="Indiana">Indiana</option>
+                                    <option value="Iowa">Iowa</option>
+                                    <option value="Kansas">Kansas</option>
+                                    <option value="Kentucky">Kentucky</option>
+                                    <option value="Louisiana">Louisiana</option>
+                                    <option value="Maine">Maine</option>
+                                    <option value="Maryland">Maryland</option>
+                                    <option value="Massachusetts">Massachusetts</option>
+                                    <option value="Michigan">Michigan</option>
+                                    <option value="Minnesota">Minnesota</option>
+                                    <option value="Mississippi">Mississippi</option>
+                                    <option value="Missouri">Missouri</option>
+                                    <option value="Montana">Montana</option>
+                                    <option value="Nebraska">Nebraska</option>
+                                    <option value="Nevada">Nevada</option>
+                                    <option value="New Hampshire">New Hampshire</option>
+                                    <option value="New Jersey">New Jersey</option>
+                                    <option value="New Mexico">New Mexico</option>
+                                    <option value="New York">New York</option>
+                                    <option value="North Carolina">North Carolina</option>
+                                    <option value="North Dakota">North Dakota</option>
+                                    <option value="Ohio">Ohio</option>
+                                    <option value="Oklahoma">Oklahoma</option>
+                                    <option value="Oregon">Oregon</option>
+                                    <option value="Pennsylvania">Pennsylvania</option>
+                                    <option value="Rhode Island">Rhode Island</option>
+                                    <option value="South Carolina">South Carolina</option>
+                                    <option value="South Dakota">South Dakota</option>
+                                    <option value="Tennessee">Tennessee</option>
+                                    <option value="Texas">Texas</option>
+                                    <option value="Utah">Utah</option>
+                                    <option value="Vermont">Vermont</option>
+                                    <option value="Virginia" selected>Virginia</option>
+                                    <option value="Washington">Washington</option>
+                                    <option value="West Virginia">West Virginia</option>
+                                    <option value="Wisconsin">Wisconsin</option>
+                                    <option value="Wyoming">Wyoming</option>
+                                    <select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Zip:
+                            </td>
+                            <td>
+                                <input class="blank" name="zip" type="text" size="10" />
+                            </td>
+                            <td align="right">
+                                Country:
+                            </td>
+                            <td>
+                                <input class="blank" name="country" type="text" size="10" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                Phone#:
+                            </td>
+                            <td>
+                                <input class="blank" name="phone" type="text" size="10" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top">
+                                Inquiry:
+                            </td>
+                            <td colspan="3">
+                                <textarea id="inquiry" name="inquiry" cols="50" rows="6"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Submit" class="btn" />
+                                <input type="reset" value="Reset" class="btn" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                </br>
+                <form method="POST" action="inquiryList.php">
+                    <input type="submit" value="Inquiry Records (PASSWORD PROTECTED)" class="btn" />
+                </form>
+                </br>
+                <div style="text-align: center;">
+                    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/brandenhuggins" data-format="inline" data-related="false" data-width="200">
+                    </script>
+                    </br>
+                    <form>
+                        <input type="button" value="Email: bhugg002@odu.edu"
+                               onclick="window.location.href='mailto:bhugg002@odu.edu'" />
+                    </form>
+                    </br>
+                    <form>
+                        <input type="button" value="Phone Number:(804) 484-4075" />
+                    </form>
+                </div>
+                </br>
+                </br>
+                </br>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</body>
 </html>
