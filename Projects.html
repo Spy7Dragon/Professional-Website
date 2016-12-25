@@ -4,64 +4,8 @@
     <meta name="author" content="Branden Huggins">
     <meta name="description" content="projects">
     <meta name="keywords" content="Software,C#,C++,GUI,HTML,CSS,Javascript,PHP,Java,Computer Science,Shutdown,Timer,Github">
-    <script type="text/javascript" language="Javascript">
-     <!-- Hide script from old browsers
-
-	var createImage = function(src, label)
-	{
-		var img = new Image();
-		img.src = src;
-		img.alt = label;
-		return img;
-	};
-    var androidImages = [];
-
-    androidImages.push(createImage("/AndroidStudioPictures/FinderButton.jpg", "Finder Button"));
-    androidImages.push(createImage("/AndroidStudioPictures/MapInterface.jpg", "Map Interface"));
-    androidImages.push(createImage("/AndroidStudioPictures/TableLayoutisDifferent.jpg", "Table Layout is Different"));
-   	androidImages.push(createImage("/AndroidStudioPictures/TopofScroll.jpg", "Top of scroll"));
-   	androidImages.push(createImage("/AndroidStudioPictures/BottomOfScroll.jpg", "Bottom of scroll"));
-   	androidImages.push(createImage("/AndroidStudioPictures/HorizontalSwipeStart.jpg", "Horizontal swipe start"));
-   	androidImages.push(createImage("/AndroidStudioPictures/InbetweenSwipe.jpg", "In between swipe"));
-   	androidImages.push(createImage("/AndroidStudioPictures/HorizontalScrollEnd.jpg", "Horizontal scroll end"));
-   	androidImages.push(createImage("/AndroidStudioPictures/LinkableText.jpg", "Linkable text"));
-   	androidImages.push(createImage("/AndroidStudioPictures/Checkuplink.jpg", "Check-up link"));
-   	androidImages.push(createImage("/AndroidStudioPictures/GoogleMapsLaunched.jpg", "Google Maps Launched"));
-   	androidImages.push(createImage("/AndroidStudioPictures/TestAdvertisement.jpg", "Test Advertisement"));
-   	androidImages.push(createImage("/AndroidStudioPictures/StartAnimation.jpg", "Start animation"));
-   	androidImages.push(createImage("/AndroidStudioPictures/EndAnimation.jpg", "End animation"));
-   	androidImages.push(createImage("/AndroidStudioPictures/ColorTheme.jpg", "Color theme"));
-   	androidImages.push(createImage("/AndroidStudioPictures/ColorTheme2.jpg", "Color theme 2"));
-   	androidImages.push(createImage("/AndroidStudioPictures/RoundedButton.jpg", "Rounded Button"));
-   	androidImages.push(createImage("/AndroidStudioPictures/NotificationButton.jpg", "Notification Button"));
-   	androidImages.push(createImage("/AndroidStudioPictures/NotificationInTopLeft.jpg", "Notificiation in top left"));
-   	androidImages.push(createImage("/AndroidStudioPictures/NotificationDropDown.jpg", "Notification drop down"));
-    imgCt = androidImages.length
-    firstTime = true
-
- function rotate() {
-    if (document.images) {
-        if (firstTime) {
-            index = 0
-            firstTime = false
-        }
-        else {
-            index++
-            if (index == imgCt) {
-                index = 0
-            }
-        }
-        document.AndroidPicture.src=androidImages[index].src;
-        document.getElementById('pictureName').innerHTML = androidImages[index].alt;
-        //update caption label
-        setTimeout("rotate()", 4 * 1000)
-    }
- }
-
- // End hiding script from old browsers -->
-    </script>
 </head>
-<body onload="rotate()">
+<body>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <table class="container">
         <tr style="height: 200px;">
@@ -92,21 +36,18 @@
             </td>
             <td class="link">
                 <form>
-                    <input class="Button" type="button" value="Contact Me"
-                           onclick="window.location.href='Contact_Me.html'" />
+                    <input class="Button" type="button" value="Contact"
+                           onclick="window.location.href='Contact.html'" />
                 </form>
             </td>
         </tr>
         <tr>
             <td></td>
             <td class="display" colspan="3" style="text-align:center">
-                </br>
-                </br>
-                </br>
-                The links go to my GitHub repositories.
-                </br>
-                The tabs below show screen shots of the associated program.
-                </br>
+                <br />
+                <br />
+                <br />
+                
                 <div class="personalProjects">
 
                     <input id="t1" type="radio" name="ts">
@@ -115,99 +56,192 @@
                     <input id="t2" type="radio" name="ts">
                     <label for="t2">Speed Reader</label>
 
-                    <input id="t3" type="radio" name="ts" checked>
+                    <input id="t3" type="radio" name="ts">
                     <label for="t3">Tic Tac Toe Simulator</label>
 
-                    <input id="t4" type="radio" name="ts">
-                    <label for="t4">Android Studio Pictures</label>
+                    <input id="t4" type="radio" name="ts" checked>
+                    <label for="t4">Online Stream Viewer</label>
 
-                    <div class="personal">
-                        <div id="panel1">
-                            <a href="https://github.com/Spy7Dragon/ShutdownTimer">Shutdown Timer</a>
-                            </br>
-                            </br>
-                            Description: Shuts down computer at desired time
-                            </br>
-                            Features: Run at Start Up, Activity Delay, Delay Time, and User Settings Saved
-                            </br>
-                            </br>
-                            <a href="ShutdownTimer.msi">DOWNLOAD</a>
-                            </br>
-                            </br>
-                            Screen Shots:
-                            </br>
-                            </br>
-                            <img src="ShutdownTimer1.jpg" alt="Shutdown Timer">
-                            </br>
-                            Main Window
-                            </br>
-                            </br>
-                            <img src="ShutdownTimer2.jpg" alt="Shutdown Timer">
-                            </br>
-                            Tray Icon & Menu
-                        </div>
-                        <div id="panel2">
-                            <a href="https://github.com/Spy7Dragon/Speed-Reader">Speed Reader</a>
-                            </br>
-                            </br>
-                            Description: Speed Reading Simulator
-                            </br>
-                            Features: Speed Changer, Copied Text reader, Multiple File setups
-                            </br>
-                            </br>
-                            <a href="Speed Reader.jar">DOWNLOAD</a>
-                            </br>
-                            </br>
-                            Screen Shots:
-                            </br>
-                            </br>
-                            <img src="SpeedReader1.jpg" alt="Speed Reader">
-                            </br>
-                            Main Window
-                        </div>
-                        <div id="panel3">
-                            <a href="https://github.com/Spy7Dragon/TicTacToe-Simulator">Tic Tac Toe Simulator</a>
-                            </br>
-                            </br>
-                            Description: Human vs computer tic tac toc
-                            </br>
-                            Features: Random player start, Restart board
-                            </br>
-                            </br>
-                            <a href="TicTacToe Simulator.jar">DOWNLOAD</a>
-                            </br>
-                            </br>
-                            Screen Shots:
-                            </br>
-                            </br>
-                            <img src="TicTacToe.jpg" alt="Tic Tac Toe">
-                            </br>
-                            Main Window
-                        </div>
-                        <div id="panel4">
-                            Android Studio Slideshow
-                            </br>
-                            </br>
-                            Description: Practicing different features in Android Studio
-                            </br>
-                            <img src="/AndroidStudio/Development Environment.jpg" width="307" height="512" name="AndroidPicture"
-                                 alt="Android Studio Pictures" />
-                            </br>
-                            <p id="pictureName">
-                                First Picture
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                </br>
-                </br>
-                </br>
-                    <a href="http://www.brandenhuggins.com/HealthNotes/index.html">HEALTH NOTES</a>
-                    </br>
-                    <iframe width="100%" height="400px" src="http://www.brandenhuggins.com/HealthNotes/index.html"></iframe>
-                </br>
-                </br>
-                </br>
+                    <table class="inner">
+                        <tr>
+                            <td>
+                                <div class="personal">
+                                    <div id="panel1">
+                                        <br />
+                                        <table>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <h4>
+                                                        <a href="https://github.com/Spy7Dragon/ShutdownTimer">GitHub - Shutdown Timer</a>
+                                                    </h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <br />
+                                                    <b>Description:</b> Shuts down computer at desired time
+                                                    <br/>
+                                                    <br/>
+                                                    <b>Features:</b> Run at Start Up, Activity Delay, Delay Time, and User Settings Saved
+                                                    <br />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <br />
+                                                    <h4>
+                                                        <a href="ShutdownTimerSetup.exe">DOWNLOAD</a>
+                                                    </h4>
+                                                    <b>Screen Shots:</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <img src="ShutdownTimer1.jpg" alt="Shutdown Timer">
+                                                    <br />
+                                                    <br />
+                                                    <b>Main Window</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <img src="ShutdownTimer2.jpg" alt="Shutdown Timer">
+                                                    <br/>
+                                                    <br />
+                                                    <b>Tray Icon & Menu</b>
+                                                    <br/>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="panel2">
+                                        <br />
+                                        <table>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <h4>
+                                                        <a href="https://github.com/Spy7Dragon/Speed-Reader">GitHub - Speed Reader </a>  
+                                                    </h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <br />
+                                                    <b>Description:</b> Speed Reading Simulator
+                                                    <br/>
+                                                    <br/>
+                                                    <b>Features:</b> Speed Changer, Copied Text reader, Multiple File setups
+                                                    <br />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <br/>
+                                                    <h4>
+                                                        <a href="Speed Reader.jar">DOWNLOAD</a>
+                                                    </h4>
+                                                    <b>Screen Shots:</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <img src="SpeedReader1.jpg" alt="Speed Reader">
+                                                    <br/>
+                                                    <br />
+                                                    <b>Main Window</b>
+                                                    <br />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="panel3">
+                                        <br />
+                                        <table>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <h4>
+                                                        <a href="https://github.com/Spy7Dragon/TicTacToe-Simulator">Tic Tac Toe Simulator GitHub</a>
+                                                    </h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <br />
+                                                    <b>Description:</b> Human vs computer tic tac toc
+                                                    <br/>
+                                                    <br/>
+                                                    <b>Features:</b> Random player start, Restart board
+                                                    <br />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <h4>
+                                                        <a href="TicTacToeSetup.exe">DOWNLOAD</a>
+                                                    </h4>
+                                                    <b>Screen Shots:</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <img src="TicTacToe.jpg" alt="Tic Tac Toe">
+                                                    <br/>
+                                                    <br />
+                                                    <b>Main Window</b>
+                                                    <br />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="panel4">
+                                        <br />
+                                        <table>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <h4>
+                                                        Online Stream Viewer
+                                                    </h4>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <br />
+                                                    <b>Description:</b> The software finds television episodes from desired shows that can be viewed online without the user having to visit the website.
+                                                    <br/>
+                                                    <br/>
+                                                    <b>Features:</b> Inclusion of popular television networks
+                                                    <br/>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center">
+                                                    <br/>
+                                                    <br/>
+                                                    <b>Screen Shots:</b>
+                                                    <br/>
+                                                    <br/>
+                                                    <img src="/OnlineStreamViewer.png" alt="Online Stream Viewer"/>
+                                                    <br/>
+                                                    <br/>
+                                                    <b>Main Window</b>
+                                                    <br/>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">
+                                <hr/>
+                                <img src="/clover.png" alt="shapes" usemap="#shapemap"/>
+                                <map name="shapemap">
+                                    <area shape="polygon" coords="4, 94, 26, 164, 74, 145, 83, 270, 88, 129, 91, 194, 167, 164, 127, 113, 197, 99, 167, 33, 113, 66, 99, 3, 34, 26, 68, 86, 4, 94"
+                                          href="http://www.brandenhuggins.com/HealthNotes/index.html" alt="HEALTH NOTES">
+                                </map>
+                                <br/>
+                                <br/>
+                                <b>Description:</b> Project website on health.
+                            </td>
+                        </tr>
+                    </table>
+                </div>                       
+                <br />
+                <br />
+                <br />
             </td>
             <td></td>
         </tr>
